@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background: rgb(113,63,251);
+background: radial-gradient(circle, rgba(113,63,251,1) 0%, rgba(252,70,242,1) 100%);
+}
+.box {
+	margin: auto;
+	margin-top: 60px;
+	width: 700px;
+	height: 500px;
+	background: rgba(255, 255, 255, 0.3);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.47);
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.47);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.47);
+	border-radius: 20px;
+	position: relative;
+	top: 0px;
+}
+#ply1, #ply2 {
+	display: inline-block;
+	width: 49.7%;
+	height: 100%;
+	text-align: center;
+}
+#dice img {
+	width: 100px;
+	position: fixed;
+	top: 50%;
+	margin-top: -200px;
+	left: 50%;
+	margin-left: -60px;
+}
+.active {
+	background: rgba(255, 255, 255, 0.3);
+	transition: 0.5s;
+	border-radius: 20px;
+}
+.buttons {
+	width: 100px;
+	position: fixed;
+	top: 50%;
+	margin-top: -300px;
+	left: 50%;
+	margin-left: -60px;
+	display: block;
+}
+.buttons button {
+	display: block;
+	border: none;
+	padding: 10px;
+	background: white;
+	border-radius: 10px;
+	width: 110px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+#btn-2 {
+	position: fixed;
+	top: 700px;
+}
+button.hidden {
+	background: rgba(0, 0, 0, 0.3);
+	cursor: unset;
+}
+#span {
+	position: relative;
+	left: 50%;
+	margin-left: -65px;
+	width: 130px;
+	height: 60px;
+	background: red;
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	margin-top: 20px;
+	border-radius: 7px;
+	padding: 5px;
+}
+#span p {
+	font-size: 20px;
+}
+h1 {
+	font-size: 44px;
+	margin-top: 120px;
+	color: white;
+
+}
+h2 {
+
+	
+	
+}
+h2.win {
+	display: block;
+}
